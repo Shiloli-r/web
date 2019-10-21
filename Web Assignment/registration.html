@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Registration</title>
+  </head>
+  <body>
+
+
+  <table class="torm">
+    <thead>
+      <h1><center>Register Patient</center></h1>
+    </thead>
+    <form class="" action="patient.php" method="post">
+      <tbody>
+        <tr>
+            <td><label for="id">Patient Id</label> </td>
+            <td><input type="text" name="" value="" placeholder="Patient Id"> </td>
+        </tr>
+        <tr>
+            <td><label for="fname">First Name</label> </td>
+            <td><input type="text" name="" value="" placeholder="First Name"> </td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name</label> </td>
+            <td><input type="text" name="" value="" placeholder="Middle Name"> </td>
+        </tr>
+        <tr>
+            <td><label for="surname">Surname</label> </td>
+            <td><input type="text" name="" value="" placeholder="Surname"> </td>
+        </tr>
+        <tr>
+            <td><label for="date">Date</label> </td>
+            <td><input type="date" name="" value="" placeholder="Date of Birth"> </td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label> </td>
+            <td><select class="" name="">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Box Sexes">Box Sexes</option>
+            </select></td>
+      </tr>
+      <tr>
+            <td><label for="county">County</label> </td>
+            <td><select class="" name="">
+              <option value="Mombasa">Mombasa (001)</option>
+              <option value="Kilifi">Kilifi (002)</option>
+              <option value="Nairobi">Nairobi (047)</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit" name="send">Send</button>
+            <button type="clear" name="clear">Clear</button>
+          </td>
+        </tr>
+      </tbody>
+      </form>
+    </table>
+    <br>
+
+
+    <table class="torm">
+      <thead>
+        <h1><center>Next of Kin Register</center></h1>
+      </thead>
+      <form class="" action="kin.php" method="post">
+
+        <tbody>
+
+          <tr>
+              <td><label for="Patient Id">Patient Id</label> </td>
+              <td><select class="" name="">
+                <option value=""></option>
+                </select></td>
+        </tr>
+          <tr>
+              <td><label for="fname">First Name</label> </td>
+              <td><input type="text" name="" value="" placeholder="First Name"> </td>
+          </tr>
+          <tr>
+              <td><label for="surname">Surname</label> </td>
+              <td><input type="text" name="" value="" placeholder="Surname"> </td>
+          </tr>
+          <tr>
+              <td><label for="relationship">Relationship</label> </td>
+              <td><input type="text" name="" value="" placeholder="Date of Birth"> </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit" name="send">Send</button>
+              <button type="clear" name="clear">Clear</button>
+            </td>
+          </tr>
+        </tbody>
+        </form>
+      </table>
+
+
+  </body>
+</html>
